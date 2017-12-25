@@ -2,4 +2,6 @@
     <string name="app_name">Android学习笔记</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_xml_pull_parser">XmlPullParserActivity</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="action_settings">Settings</string>
 </resources>

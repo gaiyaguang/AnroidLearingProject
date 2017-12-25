@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
+import com.gyg.learning.canvas.CanvasActivity;
+import com.gyg.learning.customview.CusViewActivity;
 import com.gyg.learning.xmlpullparser.XmlPullParserActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -33,6 +35,13 @@ public class MainActivity extends AppCompatActivity {
                 case 0://XmlPullParser解析xml
                     startActivity(new Intent(MainActivity.this, XmlPullParserActivity.class));
                     break;
+                case 1:
+                    startActivity(new Intent(MainActivity.this, CusViewActivity.class));
+                    break;
+                case 2:
+                    startActivity(new Intent(MainActivity.this, CanvasActivity.class));
+                    break;
+
             }
         }
     }

@@ -2,5 +2,8 @@
 <resources>
     <string-array name="learings">
         <item>XmlPullParser解析xml文件</item>
+        <item>自定义View</item>
+        <item>Canvas学习</item>
+        <item>Dagger2学习</item>
     </string-array>
 </resources>

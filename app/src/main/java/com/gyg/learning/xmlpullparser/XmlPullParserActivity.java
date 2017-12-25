@@ -17,6 +17,9 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * XmlPullParser学习使用
+ */
 public class XmlPullParserActivity extends AppCompatActivity {
 
     private ListView listview;//用于展示解析的数据

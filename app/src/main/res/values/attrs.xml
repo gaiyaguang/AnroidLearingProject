@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--自定义CusTextView属性-->
+    <attr name="text" format="string"/>
+    <attr name="textColor" format="color"/>
+    <attr name="textSize" format="dimension"/>
+    <declare-styleable name="CusTextView">
+        <attr name="text"/>
+        <attr name="textColor"/>
+        <attr name="textSize"/>
+    </declare-styleable>
+
+    <!--自定义TickView属性-->
+    <attr name="checkBaseColor" format="color"/>
+    <attr name="unCheckBaseColor" format="color"/>
+    <attr name="checkTickColor" format="color"/>
+    <attr name="radius" format="dimension"/>
+    <attr name="rate">
+        <enum name="slow" value="0"/>
+        <enum name="normal" value="1"/>
+        <enum name="fast" value="2"/>
+    </attr>
+    <declare-styleable name="TickView">
+        <attr name="checkBaseColor"/>
+        <attr name="unCheckBaseColor"/>
+        <attr name="checkTickColor"/>
+        <attr name="radius"/>
+        <attr name="rate"/>
+    </declare-styleable>
+
+</resources>
