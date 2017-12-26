@@ -32,6 +32,8 @@ public class TestActivity extends AppCompatActivity implements IView{
                         .setAction("Action", null).show();
             }
         });
+
+
         DaggerTestComponent.builder().testModule(new TestModule(this)).build().inject(this);
         mPresent.updateUI();
 

@@ -10,6 +10,7 @@ import android.widget.ListView;
 
 import com.gyg.learning.canvas.CanvasActivity;
 import com.gyg.learning.customview.CusViewActivity;
+import com.gyg.learning.dagger2.TestActivity;
 import com.gyg.learning.xmlpullparser.XmlPullParserActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -40,6 +41,9 @@ public class MainActivity extends AppCompatActivity {
                     break;
                 case 2:
                     startActivity(new Intent(MainActivity.this, CanvasActivity.class));
+                    break;
+                case 3:
+                    startActivity(new Intent(MainActivity.this, TestActivity.class));
                     break;
 
             }

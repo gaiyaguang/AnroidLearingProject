@@ -5,8 +5,8 @@ import dagger.Provides;
 
 /**
  * Created by gyg on 2017/12/25.
+ * Module类提供那些没有构造函数的类的依赖，如第三方类库，系统类，接口类
  */
-
 @Module
 public class TestModule {
 

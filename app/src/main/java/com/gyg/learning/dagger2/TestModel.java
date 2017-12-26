@@ -6,7 +6,6 @@ import javax.inject.Inject;
  * Created by gyg on 2017/12/25.
  */
 
-
 public class TestModel {
 
     @Inject
@@ -14,6 +13,6 @@ public class TestModel {
     }
 
     public String getText(){
-        return "Dagger2实践...";
+        return "Dagger2应用实践...";
     }
 }
